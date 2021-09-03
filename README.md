@@ -36,6 +36,7 @@ From the official prolifewhistleblower.com web page:
 > violating the Texas Heartbeat Act by aiding or abetting a post-heartbeat 
 > abortion. And report any person or entity that aids or abets (or that 
 > intends to aid or abet) an illegal abortion in Texas.
+
 Fuck these assholes.
 
 
@@ -44,8 +45,10 @@ Modifying the dataset is crucial. It is technically very easy for the
 website maintainers to find the template answers published here and clean it 
 from their database.  Therefore it's recommended that upon cloning this repo 
 for usage, you replace the existing template answers with your own answers. 
-All data is generated and pulled from `./answer_generator` and is easily 
-modifiable.  Just follow the style you see.
+All data is generated and pulled from json files and is easily modifiable.
+Data in ./data/*.json is probably okay as-is (for now).  Data in
+./answer_generator/*.json should be modified and added to as much as possible.
+Just follow the style you see.
 
 
 # Contributing
